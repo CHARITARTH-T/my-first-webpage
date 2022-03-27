@@ -11,6 +11,22 @@ hr{
 h2,h3{
   color: #66bfbf;
 }
-h1{
+h1:hover{
   color:#FF5677;
+}
+/* ..........................class Selectors....................... */
+/* classes are not unique.U can have same class for multiple elements */
+/* we can have more than 1 class to a particular element */
+.A:hover{
+  background-color: red;
+}
+.B{
+  background-color: blue;
+}
+/* ..........................ID Selectors....................... */
+/* ids are uniqued that is u cannot have same id for multiple elements */
+/* we cannot have more than 1 id to a particular element */
+#heading
+{
+  color:#EBE645;
 }
